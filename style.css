@@ -1,0 +1,18 @@
+body {
+    background-color: rgba(48, 228, 241, 0.347);
+    color: blue;
+}
+header {background-color: rgba(1, 75, 57, 0.758);
+    color: aqua;
+}
+section {background-color: rgba(31, 213, 219, 0.676);
+    color: rgb(2, 70, 70);
+}
+#about {background-color: rgb(122, 164, 248);}
+#boxmodel {background-color: rgba(137, 174, 182, 0.509);}
+#units {background-color: rgb(231, 216, 246);}
+#fonts {background-color: rgb(165, 190, 251);}
+section.codebox {background-color: beige;}
+nav ul{list-style-type: none;}
+
+
