@@ -1,18 +1,65 @@
 body {
-    background-color: rgba(48, 228, 241, 0.347);
-    color: blue;
+  background-color: rgba(48, 228, 241, 0.347);
+  color: blue;
 }
-header {background-color: rgba(1, 75, 57, 0.758);
-    color: aqua;
+header {
+  background-color: rgba(1, 75, 57, 0.758);
+  color: aqua;
 }
-section {background-color: rgba(31, 213, 219, 0.676);
-    color: rgb(2, 70, 70);
+section {
+  background-color: rgba(31, 213, 219, 0.676);
+  color: rgb(2, 70, 70);
 }
-#about {background-color: rgb(122, 164, 248);}
-#boxmodel {background-color: rgba(137, 174, 182, 0.509);}
-#units {background-color: rgb(231, 216, 246);}
-#fonts {background-color: rgb(165, 190, 251);}
-section.codebox {background-color: beige;}
-nav ul{list-style-type: none;}
+#about h1 {
+  background-color: rgb(122, 164, 248);
+}
+#boxmodel {
+  background-color: rgba(137, 174, 182, 0.509);
+}
+#units {
+  background-color: rgb(231, 216, 246);
+}
+#fonts {
+  background-color: rgb(165, 190, 251);
+}
+section.codebox {
+  background-color: beige;
+}
+nav ul {
+  list-style-type: none;
 
+  background-color: skyblue;
+  margin-block-start: 22px;
+  margin-block-end: -5px;
+  margin-inline-start: 25px;
+  margin-inline-end: 25px;
+}
+#about h1 {
+  width: 40%;
+  height: 30px;
+}
+#about img {
+  max-width: 30%;
+}
+.red {
+  color: red;
+  margin: 20px;
+}
+.green {
+  color: green;
+  margin: 10px;
+}
+h1 {
+  margin: 10px;
+}
+h2 {
+  margin: 15px;
+}
+header h1{
+    margin: 5px 8px ;
+}
+#selectors dl{
+   border: solid red 5px;
+   border-radius: 1em 2em 3em 4em
 
+}
